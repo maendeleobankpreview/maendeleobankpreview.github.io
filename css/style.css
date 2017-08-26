@@ -521,14 +521,15 @@ box-shadow: 0px 0px 18px -3px rgba(2,181,255,0.3);
 @media (max-width: 500px) {
   
   .flex img{
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
 }
 .flex span{
-  margin-left: -5 0px ; 
+  margin-left: -10px ; 
+}
 }
 
-}
+
 #business-main-banner .tp-caption h5 {
   font-size: 24px;
   font-weight: normal;
