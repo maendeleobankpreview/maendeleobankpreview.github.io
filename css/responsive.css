@@ -1,0 +1,135 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 28/05/2017. 
+    Theme        : ollo - responsive business bootstrap template.
+    Category     : Business.
+    Author       : @Unifytheme.
+    Designed By  : @Unifytheme.
+    Developed By : @Unifytheme.
+   
+*/
+
+
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 1199px) {
+  .ollo-contact-style-two .address-wrapper {padding-left: 0;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .business-header .theme-main-menu .right-content .language-select {margin-left: 15px;}
+  #mega-menu-holder>ul> li> a {padding: 38px 25px;}
+  .business-theme .creative-ideas .single-idea,
+  .business-theme .our-project .single-project .title {padding-left: 15px;padding-right: 15px;}
+  .ollo-blog-versionOne .single-blog .title {padding-right: 30px;}
+  .business-theme .client-sldier .owl-theme .owl-controls {left: 130px;}
+  .business-theme .service-details .top-text .text {padding-top: 5px;}
+  .shop-details .single-product-details .info strong {top:5px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+
+@media (max-width: 991px) {
+  .business-header .theme-main-menu.fixed #mega-menu-holder li .sub-toggle {top:0;}
+  .business-title-one p br {display: none;}
+  .business-footer .top-footer [class*="col-"] {margin-bottom: 40px;}
+  .business-footer .bottom-footer {margin-top: 30px;}
+  .business-header .theme-main-menu .menu-wrapper {
+    float: none;
+    clear: both;
+  }
+  .business-header .theme-main-menu .menu-wrapper:before {content: '';display: table;}
+  .business-header .theme-main-menu.fixed #mega-menu-holder>ul> li> a {padding: 0;line-height: 50px;font-size: 16px;}
+  .business-theme .welcome-text .left-side,.welcome-text .img-box,
+  .business-theme .service-details .top-text .img-box,.business-theme .service-details .top-text .text,
+  .shop-page .main-wrapper .shop-large-side {width: 100%;}
+  .welcome-text .img-box {padding: 0;margin-top: 40px;}
+  .business-theme .service-details .top-text .text {padding: 50px 0 0 0;}
+  .business-theme .details-page .backTo {margin: 40px 0;}
+  .business-theme .theme-large-sidebar {padding-right: 0;margin-bottom: 60px;}
+  .shop-page .main-wrapper .shop-large-side {margin-bottom: 80px;}
+  .shop-page .all-product-wrapper .page-pagination {float: none;}
+  .business-theme .faq-page .faq-panel .panel-group .panel-body .row img {margin: 15px 0;}
+  .ollo-contact-style-two .title p br,.business-header .theme-main-menu.fixed .search,
+  .business-header .theme-main-menu.fixed .logo,
+  .business-header .theme-main-menu.fixed .right-content .language-select {display: none;}
+}
+/*(max-width: 991px)*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .business-theme .client-sldier .wrapper .text {padding-left: 45px;padding-right: 0;}
+  .business-theme .client-sldier .owl-theme .owl-controls {left:90px;bottom: -10px;}
+  .ollo-pricing-style-one .single-price-table p br {display: none;}
+  .ollo-pricing-style-one .single-price-table {padding: 0 5px;}
+  .shop-page .main-wrapper .shop-sidebar {width: 50%;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .business-header .top-header .left-side,.business-header .top-header .icon {float: none;text-align: center;}
+  .business-header .top-header .left-side ul li {margin-bottom: 15px;}
+  .business-header .top-header .left-side ul li:first-child {border: none;padding: 0;}
+  #searchWrapper #close-button {font-size: 20px;}
+  .business-theme .our-service .single-service {padding-left: 15px;padding-right: 15px;}
+  .business-theme .client-sldier .wrapper .name {width: 100%;border: none;padding-bottom: 50px;}
+  .business-theme .client-sldier .wrapper .text {width: 100%;padding: 0 10px;}
+  .business-theme .client-sldier .owl-theme .owl-controls {width: 100%;left:0;text-align: center;bottom: -30px;}
+  .business-theme .our-team .single-team-member img,.shop-details .single-product-details .image {width: 100%;}
+  .business-theme .our-team .single-team-member {margin-bottom: 40px;}
+  .shop-page .main-wrapper .shop-sidebar,.shop-details .single-product-details .info {width: 100%;}
+  .shop-details .single-product-details .info {padding: 50px 0 0 0;}
+  .shop-details .single-product-details .info strong {position: static;margin-top: 20px;display: block;}
+  .ollo-blog-details-one .tag-option a.back {position: static;display: block;margin: 30px auto 0 auto;-webkit-transform:none;transform:none;}
+  .ollo-blog-details-one .tag-option ul {float: none;}
+  #banner .tp-caption h1 {font-size: 60px;}
+  #banner .tp-caption p br,.business-theme .short-banner p br {display: none;}
+  
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+  #success,#error {
+    width: 84%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 8%;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 620px) {
+  .business-theme .our-service .col-xs-6 {width: 100%;}
+  .business-theme .theme-inner-banner p br {display: none;}
+}
+
+
+@media (max-width: 550px) {
+   #searchWrapper form {height: 50px;}
+   #searchWrapper form button {width: 60px;font-size: 18px;}
+   #searchWrapper form input {font-size: 18px;padding-right: 62px;}
+   .business-theme .faq-page .faq-panel .panel-heading h5 a {font-size: 16px;}
+   .business-theme .error-page h3 {font-size: 80px;letter-spacing: 6px;}
+   .business-theme .error-page h2 {font-size: 100px;margin-top: -65px;}
+   .ollo-blog-details-one .comment-area .comment span button {display: block;margin: 10px 0 0 0;}
+}
+
+
+@media (max-width: 500px) {
+  .business-theme .our-team .col-xs-6 {width: 100%;}
+  .shop-page .all-product-wrapper .col-xs-6 {width: 100%;}
+}
+
+@media (max-width: 400px) {
+  .business-footer .footer-subscribe form button {width: 100px;font-size: 14px;}
+  .ollo-blog-details-one .author-text .img {float: none;margin: 0 auto;}
+  .ollo-blog-details-one .author-text .text {float: none;width: 100%;padding: 40px 0 0 0;text-align: center;}
+  .ollo-blog-details-one .comment-area .single-comment.reply-comment {margin-left: 30px;}
+}
